@@ -1,0 +1,70 @@
+:root {
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 32px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#score {
+    font-size: 18px;
+    margin: 0;
+}
+
+#speed {
+    font-size: 18px;
+    margin: 12px;
+}
+
+.container {
+    position: relative;
+}
+
+#gameBoard {
+    border: 1px solid black;
+    background-color: #aca6a2;
+    width: 50vmin;
+    height: 50vmin;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+}
+
+.pauseOverlay {
+    position: absolute;
+    visibility: visible;
+}
+
+.gameOverScreen {
+    visibility: hidden;
+}
+
+.snake {
+    background-color: #F25D18;
+    border: 0.25vmin solid black;
+}
+
+.food {
+    background-color: green;
+    border: 0.25vmin solid black;
+}
+
+.badFood {
+    background-color: #E81E23;
+    border: 0.25vmin solid black;
+}

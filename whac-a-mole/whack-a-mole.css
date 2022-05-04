@@ -1,0 +1,81 @@
+.gameBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreDisplay {
+  margin: 0;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+#gameGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 6px;
+  row-gap: 6px;
+  height: 600px;
+  width: 600px;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.square:hover {
+  box-shadow: 0 0 14px rgba(0,0,0,0.4);
+}
+
+.square:active {
+  box-shadow: inset 0 0 14px rgba(255,0,0,0.7);
+}
+
+.mole {
+  background-image: url('whac-a-mole.svg');
+  background-size: 160px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mole:active {
+  box-shadow: inset 0 0 14px rgba(0,255,0,0.7);
+}
+
+#starter {
+  background-color: white;
+  color: #F25D18; 
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 14px;
+  border: 2px solid #F25D18;
+  border-radius: 8px;
+  margin-left: 12px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-property: background-color, color
+}
+
+#starter:hover {
+  background-color: #F25D18;
+  color: white;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snake</title>
+		<link rel="stylesheet" href="snake.css"/>
+		<link rel="stylesheet" href="../styles/general.css">
+		<link rel="stylesheet" href="../styles/overlay.css">
+		<script src="/header.js" defer></script>
+		<script src="input.js" defer></script>
+		<script src="snake.js" defer></script>
+		<script src="food.js" defer></script>
+		<script src="badFood.js" defer></script>
+		<script src="game.js" defer></script>
+	</head>
+	<body>
+		<site-header></site-header>
+		<div class = "flexContainer">
+			<div class="gameContainer">
+				<h3 id = "score">
+					Current Length: 3
+				</h3>
+				<h3 id = "speed">
+					Current Speed: 5
+				</h3>
+				<div class="container">
+					<div id = "gameBoard"></div>
+					<div class="pauseOverlay overlay">
+						<h4 style="font-size: 30px;">Paused</h4>
+						<p>Press "P" to continue</p>
+					</div>
+					<div class="gameOverScreen overlay">
+						<h4 style="font-size: 30px;">Game Over</h4>
+						<p>Press "Space" to play again</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

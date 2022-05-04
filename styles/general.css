@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  background-color: #F25D18;
+  margin-bottom: 20px;
+}
+
+.homeButton {
+  position: relative;
+  height: 30px;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: -36px;
+  left: -13px;
+  visibility: hidden;
+  background-color: grey;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.homeButton:hover .tooltip {
+  visibility: visible;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.left-section img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.title {
+  margin: 0;
+  color: white;
+  font-size: 22px;
+}

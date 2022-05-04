@@ -1,0 +1,36 @@
+.container  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameBoard {
+  background-color: #aca6a2;
+  height: 410px;
+  width: 660px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.block {
+  position: absolute;
+  height: 20px;
+  width: 60px;
+  background-color: #F9EC6E;
+}
+
+.user {
+  position: absolute;
+  height: 10px;
+  width: 100px;
+  background-color: #E81E23;
+}
+
+.ball {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: #F25D18;
+  position: absolute;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Whac-A-Mole</title>
+    <link rel="stylesheet" href="whack-a-mole.css">
+	  <link rel="stylesheet" href="../styles/general.css">
+    <script src="/header.js" defer></script>
+    <script src="whac-a-mole.js" defer></script>
+  </head>
+  <body>
+    <site-header></site-header>
+    <div class="gameBoard">
+      <div class="gameInfo">
+        <h3 class="scoreDisplay">Score: <span id="score">0</span></h3>
+        <div class="timer">
+          <p>Time left: <span id="timeLeft">30s</span></p>
+          <button id="starter" onclick="handleButtonClick()">Start</button> 
+        </div>
+     </div>
+      <div id="gameGrid"></div>
+    </div>
+ </body>
+</html>

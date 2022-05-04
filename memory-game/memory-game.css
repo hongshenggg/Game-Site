@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scoreDisplay {
+  margin: 0;
+}
+
+.mistakesDisplay {
+  margin: 10px;
+}
+
+.card {
+  height: 160px;
+  width: 130px;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid rgb(175, 175, 175);
+  padding: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.card img {
+  border-radius: 16px;
+}
+
+.card:hover {
+  box-shadow: 0 0 14px rgba(0,0,0,0.3);
+}
+
+#gameGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 750px;
+  width: 650px;
+  align-items: center;
+  justify-items: center;
+}

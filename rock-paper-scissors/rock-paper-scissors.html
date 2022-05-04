@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+    <link rel="stylesheet" href="../styles/general.css">
+    <script src="/header.js" defer></script>
+    <script src="rock-paper-scissors.js" defer></script>
+  </head>
+  <body>
+    <site-header></site-header>
+    <div class="container">
+      <div class="gameContainer">
+        <h3>Your Score: <span class="yourScore">0</span></h3>
+        <h3>Computer Score: <span class="computerScore">0</span></h3>
+        <h3>Total Tries: <span class="totalTries">0</span></h3>
+        <p class="gameText">Computer Choice: <span id="computerChoice"></span></p>
+        <p class="gameText">Your Choice: <span id="userChoice"></span></p>
+        <p class="gameText">Result: <span id="resultDisplay"></span></p>
+        <div class="buttonContainer">
+          <button id="rock">
+            <div class="tooltip">Rock</div>
+          </button>
+          <button id="paper">
+            <div class="tooltip">Paper</div>
+          </button>
+          <button id="scissors">
+            <div class="tooltip">Scissors</div>
+          </button>
+        </div>
+      </div>
+    </div> 
+  </body>
+</html>

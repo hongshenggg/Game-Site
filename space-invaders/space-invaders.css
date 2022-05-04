@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+#grid {
+  position: relative;
+  height: 800px;
+  width: 600px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.square {
+  height: 40px;
+  width: 40px;
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+
+.alien {
+  background-image: url('images/space_invaders.png');
+  background-size: 35px;
+}
+
+.player {
+  background-image: url('images/laser_cannon.webp');
+}
+
+.bullet {
+  height: 30px;
+  width: 6px;
+  background-color: #f36f21;
+}
+
+.explosion {
+  background-image: url('images/explosion.png');
+}

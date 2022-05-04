@@ -1,0 +1,42 @@
+.gamesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.gamesBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+.thumbnail{
+  position: relative;
+  transition: box-shadow 0.3s;
+  border: 2px solid #aca6a2;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.gamesBoard img {
+  height: 260px;
+  width: 300px;
+  object-fit: contain;
+  padding: 16px;
+}
+
+.overlayText {
+  padding: 10px;
+  position: absolute;
+  background-color: #aca6a2ce;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
