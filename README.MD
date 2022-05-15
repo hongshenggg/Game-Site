@@ -13,8 +13,6 @@ This is a site I made to practice the basics of frontend web development, i.e. H
 
 Download the repository into a local folder, and open up index.html in a browser to begin using the site.
 
----
-
 ## Games
 
 ### Rock-Paper-Scissors
