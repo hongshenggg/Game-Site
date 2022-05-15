@@ -11,7 +11,7 @@ let gameInterval;
   for (let i = 0; i < totalSquares; i++) {
     const square = document.createElement('div');
     square.classList.add("square");
-    if (i >= 285) {
+    if (i >= 255) {
       square.classList.add('endRow');
     }
     gameGrid.appendChild(square);

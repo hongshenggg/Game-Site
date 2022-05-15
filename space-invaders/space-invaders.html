@@ -7,14 +7,21 @@
   <link rel="stylesheet" href="space-invaders.css">
 	<link rel="stylesheet" href="../styles/general.css">
 	<link rel="stylesheet" href="../styles/overlay.css">
-	<script src="/header.js" defer></script>
   <script src="game.js" defer></script> 
   <script src="invader.js" defer></script>
   <script src="player.js" defer></script>
   <title>Space Invaders</title>
 </head>
 <body>
-  <site-header></site-header>
+  <div class="header">
+    <div class="left-section">
+      <a href="../index.html" class="homeButton">
+        <img src="../icons/home.png">
+        <div class="tooltip">Home</div>
+      </a>
+      <h2 class="title">Space Invaders</h2>
+    </div>
+  </div>
   <div class="container">
     <h3 class="scoreDisplay">Score: <span id="score">0</span></h3>
     <div id="grid">

@@ -5,14 +5,21 @@
     <link rel="stylesheet" href="breakout.css">
     <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/overlay.css">
-    <script src="../header.js" defer></script>
     <script src="game.js" defer></script>
     <script src="block.js" defer></script>
     <script src="user.js" defer></script>
     <script src="ball.js" defer></script>
   </head>
   <body>
-    <site-header></site-header>
+    <div class="header">
+      <div class="left-section">
+        <a href="../index.html" class="homeButton">
+          <img src="../icons/home.png">
+          <div class="tooltip">Home</div>
+        </a>
+        <h2 class="title">Breakout</h2>
+      </div>
+    </div>
     <div class="container">
       <h3>Score: <span id="score">0</span></h3>
         <div class="gameBoard">

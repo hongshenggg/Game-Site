@@ -4,11 +4,18 @@
     <title>Whac-A-Mole</title>
     <link rel="stylesheet" href="whack-a-mole.css">
 	  <link rel="stylesheet" href="../styles/general.css">
-    <script src="/header.js" defer></script>
     <script src="whac-a-mole.js" defer></script>
   </head>
   <body>
-    <site-header></site-header>
+    <div class="header">
+      <div class="left-section">
+        <a href="../index.html" class="homeButton">
+          <img src="../icons/home.png">
+          <div class="tooltip">Home</div>
+        </a>
+        <h2 class="title">Whac-A-Mole</h2>
+      </div>
+    </div>
     <div class="gameBoard">
       <div class="gameInfo">
         <h3 class="scoreDisplay">Score: <span id="score">0</span></h3>

@@ -1,4 +1,4 @@
-let playerCurrentPosition = 277;
+let playerCurrentPosition = 262;
 let recentlyMoved = false;
 let cooldown = false;
 let keysPressed = {
